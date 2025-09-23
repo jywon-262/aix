@@ -1,8 +1,28 @@
-1절 조건문
+4장 제어문(if, while, for)
+1절 조건문(if)
+	if 조건1:
+	    조건1이 True일 경우 수행할 명령어들
+	elif 조건2:
+	    조건1이 False고, 조건2가 True일 때 수행할 명령어들
+	else:
+	    모든 조건이 False일 경우 수행할 명령어들
+
 2절 반복문
-    2.1 for-in문
-    2.2 while문
-    2.3 break & continue
+	for 임시변수 in 나열가능한자료:
+	    반복할 명령어들
+	else:
+	    나열가능한 자료를 다 소요한 후 한번 수행할 명령어	
+	
+	while 조건:
+	    조건이 True일 때 반복할 명령어들
+	else:
+	    조건이 False가 되면 한번 수행할 명령어들
+
+	break vs. continue
+
 3절 중첩 for문(중첩루트)
+
 4절 중첩루프 탈출
+	flag변수이용 vs 예외처리
+
 5절 연습문제
